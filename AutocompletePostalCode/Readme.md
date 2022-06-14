@@ -47,3 +47,8 @@ Deploy function to AWS Lambda
     cd "AutocompletePostalCode/src/AutocompletePostalCode"
     dotnet lambda deploy-function
 ```
+## Setting
+
+1)This function only returns only 4 results as  i have added in global paramter store. I can be increase if needed. 
+2)The Url also comming from parameer store. 
+
